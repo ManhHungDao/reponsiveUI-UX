@@ -1,8 +1,28 @@
+import { Brand, CTA, Navbar } from "./components/index";
+import {
+  Blog,
+  Features,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+} from "./containers";
+import './App.scss'
 
 function App() {
   return (
     <div className="App">
-      <a>Learn React</a>
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <WhatGPT3 />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 }
