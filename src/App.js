@@ -7,7 +7,7 @@ import {
   Possibility,
   WhatGPT3,
 } from "./containers";
-import './App.scss'
+import './App.css'
 
 function App() {
   return (

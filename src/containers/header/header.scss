@@ -1,0 +1,101 @@
+.gpt3__header {
+  display: flex;
+  .gpt3__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+    p {
+      margin-top: 1.5rem;
+      // width: 554px;
+      // width: 100%;
+      font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 27px;
+      color: var(--color-text);
+    }
+    .gradient__text {
+      font-family: var(--font-family);
+      font-weight: 800;
+      font-size: 62px;
+      line-height: 75px;
+      // width: 614px;
+      // width: 100%;
+
+      /* or 121% */
+      letter-spacing: -0.04em;
+    }
+    .gpt3__header-content__input {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 2rem 0 1rem;
+      width: 100%;
+      //   width: 630px;
+      //   height: 73px;
+      button {
+        // width: 174px;
+        // height: 73px;
+        flex: 0.6;
+        width: 100%;
+        min-height: 50px;
+        background: var(--color-btn);
+        outline: none;
+        border: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-family: var(--font-family);
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 0 1rem;
+      }
+      input {
+        flex: 2;
+        width: 100%;
+        min-height: 50px;
+        background: #052d56;
+        // width: 456px;
+        // height: 73px;
+        // padding: 24px 0 22px 32px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #3d6184;
+        text-transform: capitalize;
+        border: 2px solid var(--color-footer);
+        outline: none;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        padding: 0 1rem;
+      }
+    }
+  }
+  .got3__header-content__people {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    p {
+      font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 38px;
+      margin-top: 0;
+      margin-left: 1rem;
+    }
+  }
+  .gpt3__header-image {
+    img {
+      display: inline;
+      width: 667.41px;
+      height: 701.59px;
+    }
+  }
+}
